@@ -25,6 +25,7 @@ h4 {
 h2,
 a {
   color: #2980b9;
+  margin-top: 0px;
 }
 h5 {
   position: absolute;
@@ -88,7 +89,11 @@ hr {
 div.skills {
   margin-top: 10px;
 }
-
+div.contact {
+  margin: 10px 0;
+  padding: 15px;
+  background: #fff;
+}
 div.skills div,
 div.formations,
 div.contact,
@@ -96,10 +101,15 @@ div.career,
 div.hobbies,
 div.projects {
   margin: 10px 0;
-  padding: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
   background: #fff;
 }
-
+.colums {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 div.career {
   padding: 30px;
 }
